@@ -35,6 +35,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+Step 1: Create Virtual Machine in Azure 
+
+To start off, in my Azure subscription, I created a resource group to help organize my resources. I named my resource group "RG-osTicket". The creation of a virtual machine resource can be located by simply typing in the search bar, "virtual machine", and then clicking on the icon to begin the process. 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/2a0658d0-1516-447c-a322-6096949723fa)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/36f38d64-d951-439e-9bc1-82f6d0c82bf3)
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/b88c3640-854d-4ec9-907d-1e5a528514a4)
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/c8dc069c-bb7c-4408-b3bd-a8a10e543db9)
+
+
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
