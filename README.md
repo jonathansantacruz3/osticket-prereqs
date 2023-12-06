@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-Step 1: Create Virtual Machine in Azure 
+<h3>Step 1: Create Virtual Machine in Azure</h3>
 
 To start off, in my Azure subscription, I created a resource group to help organize my resources. I named my resource group "RG-osTicket". The creation of a virtual machine resource can be located by simply typing in the search bar "virtual machine", and then clicking on the icon to begin the process. 
 
@@ -51,14 +51,62 @@ For the administrator credentials I used "labuser" as my user name and Password1
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/c8dc069c-bb7c-4408-b3bd-a8a10e543db9)
 
-In the tabs below i navigated to networking and verified Azure created the necessary virtual network, subnet, public IP address, and a basic NIC network security group. I then clicked on the blue "Review + Create" button. 
+In the tabs below I navigated to networking and verified Azure created the necessary virtual network, subnet, public IP address, and a basic NIC network security group. I then clicked on the blue "Review + Create" button. 
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/27ed290a-5149-4601-8cc4-33a9a2fcacd5)
 
-Once validated it took me to this screen and I knew it passed because of the green checkmark and the notification reaffirming it. 
+<p>Once validated it took me to this screen and I knew it passed because of the green checkmark and the notification reaffirming it.</p>
+
+In order to get the VM's IP address I searched for virtual machines in Azure and clicked on the newly created VM. Under networking, the address is available to copy to the computer's clipboard. 
+In Window's search bar I typed "remote desktop" and pasted the IP address. 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/b552e099-bb1e-4834-afff-0245ad53104d)
+
+After the connection is made, I used the labuser credentials I designated when creating the VM. 
+
+<h3>Step 2: Installation of prerequisites for osTicket</h3>
+<p>The prereqs used for the installation were stored on my google drive for offline use. First I installed and enabled was Internet Information Services or IIS along with CGI, common HTTP features, and IIS Management Console. IIS and it's components installed allowed the machine to function as a web server to permit osTicket to run as a website.</p>
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/dc62a2cc-bb31-4244-bd63-b430ba7272e9)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/eeacf1fb-d9b1-435c-9579-b66506721b00) 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/cef4aa5f-45e6-47e7-8c09-26248b577b86)
+
+Expand Common HTTP features > check all boxes > OK 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/05124a30-ce22-43a7-8956-8a5f76689c06)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/9793e29b-fa66-4064-9dbd-036616fafb1c)
+
+Verified web server was installed by opening up a browser and typed the IP address 127.0.0.1 (loopback address that the machine uses to communicate to itself) in the  URL. I knew it was working when the browser displayed the image below.  
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/17dfe4ba-82e7-415e-a8c6-adb1a4eb0705)
+
+Downloaded and installed PHP manager for IIS. This tool is used to install and manage PHP extensions on IIS. It also helps to register, configure, run, check and troubleshoot PHP versions on the same server. 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/bc193501-e51f-472a-8b64-96ed0a245a15)
+
+Downloaded & installed the rewrite module program. This is utilized with osTicket to grant friendly URLs for the web-based support ticket system. Friendly URLs are more readable, memorable, and SEO-friendly than the default URLs. For example, a friendly URL can look like this 
+
+https://example.com/ticket/1234
+
+vs.
+
+https://example.com/ticket.php?id=1234<br />
 
 
-<p>
+
+After I installed the rewrite module I created a new directory in the C drive called C:\PHP to store the PHP download data. 
+The next step was downloading PHP and unzipping it into the new directory.
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/54c38819-26c2-4690-8a59-ddccdd2253eb)
+
+
+Following the prior install I downloaded and installed VC_redist_x86.exe. This is a standard distributable package shared code that enabled me to run PHP on my PC. 
+
+
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
