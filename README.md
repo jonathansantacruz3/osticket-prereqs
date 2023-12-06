@@ -135,7 +135,15 @@ Once registered, I refreshed the server to reflect the changes.
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/a8e59850-32c0-4a3c-875a-4f9dc14f2b3b)
 
+Then I followed with the download and install of osTicket from my google drive. I opened my downloads folder in my WIndows machine and extracted the "upload folder" located within the osTicket zipped file and copied it to: 
 
+C:\inetpub\wwwroot
+
+Once copied, locate the folder, rename it "osTicket", and refresh the IIS server by clicking restart in the IIS manager. Afterwards, I clicked on "sites" on the left side of the manager pane and from the drop down options "Default Web Site" was visible. Within this folder, there was the "osTicket" folder. "Browse *:80(http)" appeared on the right side of the manager pane and i clicked it to verify osTicket showed up in the broswer. 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/42b6fb57-29b7-4dea-9f07-6192c1675d74)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/0033ec21-a8dd-4ac5-bb58-f272e4fe869b)
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
