@@ -145,6 +145,59 @@ Once copied, locate the folder, rename it "osTicket", and refresh the IIS server
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/0033ec21-a8dd-4ac5-bb58-f272e4fe869b)
 
+There are three extensions that needed to be enabled. To configure this, I returned to the IIS manager, "sites" > Default > osTicket > double click PHP Manager > CLick on "Enable or disable an extension". 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/92fa9c93-43e1-4f3a-9850-f5317d92b735)
+
+In the next window I enabled the necessary extensions: php_imap.dll, php_intl.dll, php_opcache.dll
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/c02b2383-90b2-4f04-85de-be65e17391bd)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/c0fbe982-98e6-4218-bffb-10659089ecfc)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/b0177da6-93ea-40d7-a17d-20fb72c21ffb)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/c3ada9b7-e90c-4911-86dc-620f341a2501)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/cca10e96-7ddf-49ed-b144-e3b660ee3b95)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/c3facf6c-8d8d-4184-9f4b-f51d36f78f96)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/735e9634-edf4-4c72-a3a9-cbecf9008dfe)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/b3566f22-949d-4989-aefc-69b8440323d1)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/beae5995-43a8-42d5-afe5-10f845b12e27)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/26b666af-6cd6-4e6b-9526-c677f86b0a36)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/78b37aef-8ed6-48bd-b15c-2d818f83681a)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/4f6fc7ae-500f-4120-94ec-8f00033d72e9)
+
+OK > APPLY > OK 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/6aa44fb4-d7e0-49e4-aabd-ef59d234bcc2)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/c25a8795-53fa-4098-9de6-9f26e78e4b57)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/44bb4619-a743-4c68-9305-120d7a2b040d)
+
+The following are the credentials I used to set up the osTicket system to login:
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/ace23f9c-5356-4f8b-aeb2-ccc277ff2119)
+
+
+I had to configure a database and needed to install HeidiSQL. Using my adminstrator credentials I used when I installed MySQL, I created and started a new session that let me create a new database. 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/2477ccf4-d5ae-4ccd-ba63-9e322ca7b64b)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/831f47ec-08c8-43e0-84dd-c3b047951122)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/ec6f6dd2-f589-465b-ac58-3619079feb69)
+
+
+
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
