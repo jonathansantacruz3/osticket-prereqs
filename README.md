@@ -105,6 +105,37 @@ The next step was downloading PHP and unzipping it into the new directory.
 
 Following the prior install I downloaded and installed VC_redist_x86.exe. This is a standard distributable package shared code that enabled me to run PHP on my PC. 
 
+Once this was installed in moved on to downloading and installing MySQL server. 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/1a1cf48b-e447-427c-be13-e1b07f9350a7)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/f293073f-f1a5-425f-9b6c-ef29dfceebda)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/2e5f8139-99b3-48e1-9ed5-a10c194bc1d0)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/cf9cec00-73be-4047-8633-706db9024a04)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/93117473-cd14-465c-882c-a3504feaa0ac)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/412a0d5c-bfda-4918-9b10-a4363d4e8cb5)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/d26fa8a1-512a-4f40-b3f6-210fc13f8ffe)
+
+After completion, I opened IIS as an administrator to register PHP.
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/4d96bcf1-2092-4c54-a3c7-bf34357a2645)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/02745542-4c96-428f-ad2e-a0ddd1301380)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/cd2895eb-43b4-48c0-b64d-f0e6764ad2df)
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/b4d57603-2311-4afe-9589-4b1836d11338)
+
+Once registered, I refreshed the server to reflect the changes. 
+
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/a8e59850-32c0-4a3c-875a-4f9dc14f2b3b)
+
+
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
