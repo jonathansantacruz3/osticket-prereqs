@@ -206,6 +206,8 @@ I continued to set up osTicket in the browser.
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/6d699f14-9337-48b8-8b81-092dd6a4ff75)
 
+<h3>Step 3: Clean up</h3>
+
 After successful installation, I configured the permissions to "Read" only in: 
 
 C:\inetpub\wwwroot\osTicket\include\ost-config.php
