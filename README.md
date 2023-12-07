@@ -188,7 +188,7 @@ The following are the credentials I used to set up the osTicket system to login:
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/ace23f9c-5356-4f8b-aeb2-ccc277ff2119)
 
 
-I had to configure a database and needed to install HeidiSQL. Using my adminstrator credentials I used when I installed MySQL, I created and started a new session that let me create a new database. 
+I had to configure a database and needed to install HeidiSQL. Using my adminstrator credentials when I installed MySQL, I created and started a new session that let me create a new database. 
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/2477ccf4-d5ae-4ccd-ba63-9e322ca7b64b)
 
@@ -196,28 +196,22 @@ I had to configure a database and needed to install HeidiSQL. Using my adminstra
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/ec6f6dd2-f589-465b-ac58-3619079feb69)
 
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/cfdecce6-dfc8-4db8-a019-fe3525d8b177)
 
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/33833581-2f77-4867-bf2d-b20227481087)
 
+I continued to set up osTicket in the browser. 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/30b0a8d6-b5b7-401d-ae3d-a873943ee98d)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/6d699f14-9337-48b8-8b81-092dd6a4ff75)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+After successful installation, I configured the permissions to "Read" only in: 
+
+C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+I also deleted the setup folder in the path 
+
+C:\inetpub\wwwroot\osTicket\setup
+
+Once configured, osTicket was ready to be configured as an adminstrator, add users, set permissions, create tickets, etc. 
