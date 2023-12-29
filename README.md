@@ -43,7 +43,7 @@ To start off, in my Azure subscription, I created a resource group to help organ
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/36f38d64-d951-439e-9bc1-82f6d0c82bf3)
 
-I selected my subscription and the resource group "RG-osTicket" that I created in the drop down menu for the corresponding fields. I proceeded to assign the name "vm-osticket" to my virtual machine, utilizing lowercase letters. It wouldn't validate my machine if I utilized capital letters. When it comes to choosing a region for a resource, it is best practice to appoint the region closest to yourself or whoever will be working with those resources. I am in the west part of the USA so I chose "(US) West US 3. This is basically where the data center will house that particular resource. For the image i used a Windows 10 Pro, version 21H2, with 4 virtual CPUs totaling 16 GB of memory. 
+I selected my subscription and the resource group "RG-osTicket" that I created in the drop down menu for the corresponding fields. I proceeded to assign the name "vm-osticket" to my virtual machine, utilizing lowercase letters. It wouldn't validate my machine if I utilized capital letters. When it comes to choosing a region for a resource, it is best practice to appoint the region closest to yourself or whoever will be working with those resources. I am in the west part of the USA so I chose "(US) West US 3. This is basically where the data center will house that particular resource. The image I used was Windows 10 Pro, version 21H2, with 4 virtual CPUs totaling 16 GB of memory. 
 
 ![image](https://github.com/jonathansantacruz3/osticket-prereqs/assets/151465848/b88c3640-854d-4ec9-907d-1e5a528514a4)
 
